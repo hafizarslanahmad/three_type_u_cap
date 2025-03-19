@@ -5,17 +5,17 @@
         <div class="col-lg-4 p-2 col-size border border-gray text-center">
           <h5 class="card-title">Educator</h5>
           <p class="p-2">If you’d like to incorporate real companies into the education process for your students…</p>
-          <%= link_to "SignUp", new_user_registration_path(role: "educator"), class: "my-3 btn btn-outline-primary border-primary rounded-pill text-primary" %>
+          <%= link_to "SignUp", new_user_registration_path(user_type: "educator"), class: "my-3 btn btn-outline-primary border-primary rounded-pill text-primary" %>
         </div>
         <div class="col-lg-4 p-2 col-size border border-gray text-center">
           <h5 class="card-title">Student</h5>
           <p class="p-2">If you’re interested in learning while gaining work experience at our hosts company partners…</p>
-          <%= link_to "SignUp", new_user_registration_path(role: "student"), class: "my-3 btn btn-outline-primary border-primary rounded-pill text-primary" %>
+          <%= link_to "SignUp", new_user_registration_path(user_type: "student"), class: "my-3 btn btn-outline-primary border-primary rounded-pill text-primary" %>
         </div>
         <div class="col-lg-4 p-2 col-size border border-gray text-center">
           <h5 class="card-title">Industry Partner</h5>
           <p class="p-2">If you’re interested in connecting with students and their schools through experiential learning collaborations…</p>
-          <%= link_to "SignUp", new_user_registration_path(role: "company"), class: "my-3 btn btn-outline-primary border-primary rounded-pill text-primary" %>
+          <%= link_to "SignUp", new_user_registration_path(user_type: "company"), class: "my-3 btn btn-outline-primary border-primary rounded-pill text-primary" %>
         </div>
       </div>
     </div>
